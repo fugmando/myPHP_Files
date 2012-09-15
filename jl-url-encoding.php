@@ -28,11 +28,11 @@
 			<?php echo htmlspecialchars($linktext); ?>
 		</a>
 		
-		 
+		<p> 
 		"OUPUT:<br> 
 		http://localhost/php%2Fcreated%2Fpage%2Furl.php?param1=this+is+a+string&param2=%22bad%22%2F%3C%3Echaracter%24
 		"
-		
+		</p>
 		<?php
 			/*
 			Summary:
