@@ -3,7 +3,7 @@
 		<title>scrap</title>
 	</head>
 	<body>
-	
+	learning how to use git
 	<?php $array2 = array(6,"fox", "dog", array("x", "y", "z")); ?>
 	<?php echo $array2[3][1]; ?>
 	<?php $array2[2] = "cat"?>
