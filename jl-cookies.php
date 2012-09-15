@@ -6,6 +6,6 @@
 		<title>Cookies</title>
 	</head>
 	<body>
-	<?p?>
+	Setting a cookie must go into the head (not html "head", seomething different) before anything else. 
 </body>
 </html>
