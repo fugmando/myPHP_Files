@@ -3,10 +3,9 @@
 
 <html>
 	<head>
-		<title>scrap</title>
+		<title>Cookies</title>
 	</head>
 	<body>
-	
-	d
+	<?p?>
 </body>
 </html>
