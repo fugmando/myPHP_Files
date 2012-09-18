@@ -6,10 +6,10 @@
 	
 	<?php $array1 = array(6, 4, 1, 3, 5, 2); ?>
     
-    Count: <?php echo count($array1); ?> <br>
-    Max: <?php echo max($array1); ?> <br>
-    Min: <?php echo min($array1); ?> <br>
-    Sort: <?php sort($array1); print_r($array1); ?><br>
+    Count: 	<?php echo count($array1); ?> <br>
+    Max: 	<?php echo max($array1); ?> <br>
+    Min: 	<?php echo min($array1); ?> <br>
+    Sort: 	<?php sort($array1); print_r($array1); ?><br>
     Reverse Sort: <?php rsort($array1); print_r($array1); ?> <br>
     
     Implode(make a str): <?php echo $str = implode(", ", $array1); 
@@ -26,7 +26,8 @@
     ?><br>
     
     In the array?: <?php echo in_array(3, $array1); 
-    /* ret bool T=1 / F="", first param is the value to look for, the sec is where to search*/
+    /* ret bool T=1 / F="", first param is the value to look for, 
+     * the sec is where to search*/
     ?>
 
     <pre><?php print_r($array1); ?></pre>
@@ -36,7 +37,18 @@
         echo var_dump($var);
     ?>
     <?php echo get_defined_vars(); ?>
+    <hr>
+    <?php 
+//     $arrx = [1,2,3,4,5,6,7,8,9,10];
     
+    $arrx = [
+    "foo" => "bar",
+    "bar" => "foo"
+	];
+    echo $arrx["bar"];
+//     $arry = $arrx.slice(3,4);
+//     $arry = [4,5,6,7,8];
     
+    ?>
 </body>
 </html>

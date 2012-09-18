@@ -35,7 +35,7 @@
 	?>
 	
 </body>
-</html> oops
+</html>
 <?php 
 // 	5. Close connection (remember, you can simply use mysql_close(), see not above)
 	mysql_close($connection);
