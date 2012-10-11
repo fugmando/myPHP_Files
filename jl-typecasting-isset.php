@@ -5,7 +5,7 @@
 	<body>
 	
 	<?php
-	    $a = 5;
+	    $a=9;
 	    // if $a is NOT set, then set to 100
 	    if (!isset($a)) {
 	        $a = 100;

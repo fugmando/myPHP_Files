@@ -41,10 +41,10 @@
     <?php 
 //     $arrx = [1,2,3,4,5,6,7,8,9,10];
     
-    $arrx = [
+    $arrx = array(
     "foo" => "bar",
     "bar" => "foo"
-	];
+	);
     echo $arrx["bar"];
 //     $arry = $arrx.slice(3,4);
 //     $arry = [4,5,6,7,8];
