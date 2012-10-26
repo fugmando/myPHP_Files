@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>String to array</title>
+</head>
+<body>
+<script>
+var $result = "u'28.7200000000', u'-88.3800000000', u'B23', u'2010-05-16 00:00', u'50', u'50', u'Brooks-McCall Cruise 02 MAY 15-17 2010', u'0.410000000000'";
+var $arr = $result.split(",");
+	console.log(typeof $arr);
+var $newArr = [];
+
+for (var i=0, il = $arr.length; i< il; i++) {
+	var $x = $arr[i].replace(/^\s+|\s+$/g,'').replace(/u'/g, "").replace(/\s+/g, "").replace(/'/g, "").replace("00:00", "");
+	console.log($x);
+ 	$newArr.push($x);
+	console.log($newArr);
+  	console.log($newArr.length);
+}
+
+
+
+
+</script>
+</body>
+</html>
